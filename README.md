@@ -1,6 +1,3 @@
-# Enunciado do Exercício: Sistema de Gerenciamento de Eventos Esportivos
-
-## Descrição Geral
 Você deve desenvolver um sistema orientado a objetos em PHP para gerenciar eventos esportivos, como partidas de futebol e corridas de atletismo. O sistema permitirá o cadastro de eventos, a inscrição de participantes (atletas), e o controle de resultados das competições. O sistema deve utilizar os conceitos de POO, incluindo herança, interfaces, traits, e outros recursos avançados do PHP, como sobrecarga de propriedades e classes anônimas.
 
 ## Requisitos do Sistema
