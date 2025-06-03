@@ -1,7 +1,5 @@
 Você deve desenvolver um sistema orientado a objetos em PHP para gerenciar eventos esportivos, como partidas de futebol e corridas de atletismo. O sistema permitirá o cadastro de eventos, a inscrição de participantes (atletas), e o controle de resultados das competições. O sistema deve utilizar os conceitos de POO, incluindo herança, interfaces, traits, e outros recursos avançados do PHP, como sobrecarga de propriedades e classes anônimas.
 
-## Requisitos do Sistema
-
 ### 1. Estrutura do Projeto
 - Organize as classes, interfaces e traits em uma estrutura de diretórios:
   - `src/Models`: Classes do sistema (ex.: `Evento`, `PartidaFutebol`, `CorridaAtletismo`, `Atleta`, `OrganizadorEventos`).
@@ -61,23 +59,23 @@ Você deve desenvolver um sistema orientado a objetos em PHP para gerenciar even
 
 O projeto será avaliado com base nos seguintes critérios, totalizando 100 pontos:
 
-## 1. Corretude na Implementação dos Conceitos de Orientação a Objetos (40%)
+### 1. Corretude na Implementação dos Conceitos de Orientação a Objetos (40%)
 - **Herança (10 pontos)**: Classes concretas (`PartidaFutebol` e `CorridaAtletismo`) devem herdar corretamente de `Evento`.
 - **Interfaces (10 pontos)**: Apenas `PartidaFutebol` deve implementar `Competivel`, e `CorridaAtletismo` não deve.
 - **Constantes (10 pontos)**: Cada classe deve ter pelo menos uma constante relevante.
 - **Métodos/Propriedades Estáticas (10 pontos)**: Deve haver pelo menos um método estático e uma propriedade estática.
 
-## 2. Uso Adequado de Strict Types, Encapsulamento, Getters/Setters e Composer com Autoload (25%)
+### 2. Uso Adequado de Strict Types, Encapsulamento, Getters/Setters e Composer com Autoload (25%)
 - **Strict Types (6 pontos)**: Todos os arquivos devem usar `declare(strict_types=1);`.
 - **Encapsulamento (6 pontos)**: Propriedades devem ser `private` ou `protected`, com acesso via `__get`/`__set` ou métodos específicos.
 - **Getters/Setters (6 pontos)**: Uso correto de `__get` e `__set` em `Atleta`.
 - **Composer com Autoload (7 pontos)**: Autoload deve estar configurado e funcionando corretamente.
 
-## 3. Implementação e Uso Correto de Traits para Reutilização de Código (15%)
+### 3. Implementação e Uso Correto de Traits para Reutilização de Código (15%)
 - **Traits (7 pontos)**: `Auditoria` e `Exibivel` devem ser implementados e usados por pelo menos duas classes.
 - **Correção (8 pontos)**: Traits devem funcionar sem erros e ser bem aplicados.
 
-## 4. Organização do Código, Clareza dos Comentários e Estrutura do Projeto (20%)
+### 4. Organização do Código, Clareza dos Comentários e Estrutura do Projeto (20%)
 - **Organização do Código (6 pontos)**: Estrutura de diretórios e namespaces devem estar corretos.
 - **Clareza dos Comentários (7 pontos)**: DocBlock deve ser usado para documentar classes, métodos e propriedades.
 - **Estrutura do Projeto (7 pontos)**: O sistema deve ser funcional, com `index.php` demonstrando todos os recursos.
